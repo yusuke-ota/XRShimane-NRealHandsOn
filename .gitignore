@@ -1,0 +1,12 @@
+﻿.git
+.idea
+Library
+Logs
+obj
+Temp
+
+Assets/NRSDK
+Assets/NRSDK.meta
+
+*.csproj
+default.txt
