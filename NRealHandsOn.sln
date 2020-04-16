@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRSDK", "NRSDK.csproj", "{F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{62B0D350-788D-6881-925D-A12E6FE6DC30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdjustByImage", "AdjustByImage.csproj", "{F3659571-610D-698E-D1BB-6C4A8074CD5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcurator", "Calcurator.csproj", "{8FCEBC49-3E8E-85B1-235B-5201500C2997}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{62B0D350-788D-6881-925D-A12E6FE6DC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62B0D350-788D-6881-925D-A12E6FE6DC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62B0D350-788D-6881-925D-A12E6FE6DC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCEBC49-3E8E-85B1-235B-5201500C2997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCEBC49-3E8E-85B1-235B-5201500C2997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCEBC49-3E8E-85B1-235B-5201500C2997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCEBC49-3E8E-85B1-235B-5201500C2997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

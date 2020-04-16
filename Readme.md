@@ -70,10 +70,6 @@ Android向けにビルド(apkで出力)
 
 Nreal SDKはUnity Packageとして配布されているので、ダウンロードして、Unityのプロジェクトにドロップすれば、OKです。
 
-今回は、ビルドしないので、ビルド設定については特に触れません。  
-実機を手に入れて、ビルドする場合には、ビルド設定回りの説明も読んでください。
-https://developer.nreal.ai/develop/unity/android-quickstart
-
 ---
 
 ### Unsafe許可
@@ -83,6 +79,7 @@ Nreal SDKは内部でUnsafeコードを使っています。
 
 このSDKのために、プロジェクト全体をUnsafe許可にするのは嫌なので、
 アセンブリ定義を用いて、Nreal SDK内部でだけUnsafeを許可します。
+Editor拡張はビルドに含まれるとビルドエラーが出るそうなので、NRSDK/Editor下にも別で生成します。
 
 アセンブリ定義については、以下の記事がおすすめ
 https://qiita.com/toRisouP/items/d206af3029c7d80326ed
@@ -110,10 +107,44 @@ https://qiita.com/toRisouP/items/d206af3029c7d80326ed
 
 ---
 
-## 画像認識Onエミュレータの構築(15分)
-
 ## 画像ライブラリの作成(5分)
 
+エミュレータに含めたい画像を**すべて**選択してから、右クリックして、TrackingImageDatabaseを生成します。
+![](./DocumentImages/TrackingImageDatabase.png)
+
+※注:  
+画像を選択していない状態では、TrackingImageDatabaseが選択できません。(ハマった)  
+あとから、TrackingImageDatabaseの登録画像数を増やすことはできません。入れ替えはできます。
+
+---
+
+## 使用する画像ライブラリの設定
+
+右クリック -> NRSDK -> SessionConfig  
+でSessionConfigを生成して、TrackingImageDatabaseの項目に使いたい物を設定します。
+
+---
+
+## 画像認識Onエミュレータの構築(15分)
+
+### ビルド設定
+
+ビルド設定は画像のProject Tipsを開いて、すべて適用すればOKです。
+![](./DocumentImages/ProjectTips.png)
+
+詳細なビルド設定は以下のリンク先を読んでください。
+https://developer.nreal.ai/develop/unity/android-quickstart
+
+---
+
+### Image Tracking Emulate
+
+画像を置きたい場所に、Emulator/Prefab内のNRTrackableImageTargetを置きます。
+
+---
+
 ## ARマーカーの話(20分)
+
+---
 
 ## 何か作る(60分)
