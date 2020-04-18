@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdjustByImage", "AdjustByImage.csproj", "{F3659571-610D-698E-D1BB-6C4A8074CD5C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRSDK.Editor", "NRSDK.Editor.csproj", "{45250A99-1924-A50F-2865-11601DBB1FBC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRSDK", "NRSDK.csproj", "{F421C955-DA2F-4A77-A37A-9C2287D77DAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{62B0D350-788D-6881-925D-A12E6FE6DC30}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdjustByImage", "AdjustByImage.csproj", "{F3659571-610D-698E-D1BB-6C4A8074CD5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcurator", "Calcurator.csproj", "{8FCEBC49-3E8E-85B1-235B-5201500C2997}"
 EndProject
@@ -17,6 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{45250A99-1924-A50F-2865-11601DBB1FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45250A99-1924-A50F-2865-11601DBB1FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45250A99-1924-A50F-2865-11601DBB1FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,10 +33,6 @@ Global
 		{62B0D350-788D-6881-925D-A12E6FE6DC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62B0D350-788D-6881-925D-A12E6FE6DC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62B0D350-788D-6881-925D-A12E6FE6DC30}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3659571-610D-698E-D1BB-6C4A8074CD5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8FCEBC49-3E8E-85B1-235B-5201500C2997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8FCEBC49-3E8E-85B1-235B-5201500C2997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FCEBC49-3E8E-85B1-235B-5201500C2997}.Release|Any CPU.ActiveCfg = Release|Any CPU
