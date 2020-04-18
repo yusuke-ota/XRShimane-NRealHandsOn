@@ -7,6 +7,11 @@ Temp
 
 Assets/NRSDK
 Assets/NRSDK.meta
+Assets/AdjustByImage
+Assets/AdjustByImage.meta
+
+Assets/Plugins
+Assets/Plugins.meta
 
 *.csproj
 default.txt
