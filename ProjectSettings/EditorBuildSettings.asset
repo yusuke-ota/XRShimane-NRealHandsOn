@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/AdjustByImage/Examples/AdjustByImageDemo/AdjustByImageDemo.unity
-    guid: cd9fc1fc19d18e94e9825a464bfdc58b
+    path: Assets/Scenes/NGMaker.unity
+    guid: e6940cf6629b56d408f3f9a3dade4588
   m_configObjects: {}
