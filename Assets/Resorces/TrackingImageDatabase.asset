@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TrackingImageDatabase
   m_EditorClassIdentifier: 
   m_Images:
-  - Name: test_0
+  - Name: test
     Width: 385
     Height: 0
     Quality: 50

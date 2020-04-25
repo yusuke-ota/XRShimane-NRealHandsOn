@@ -128,7 +128,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: nreal_snakeMaterial
+  m_Name: testMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -141,7 +141,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 570be5ff8a6ddc940af37ed4673d0dea, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed94add220a786e42b541af5bc89db31, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -364,6 +364,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4870001952238468, guid: 4cc4ed5324930cd4ca030d3d2b956ea7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.38500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4870001952238468, guid: 4cc4ed5324930cd4ca030d3d2b956ea7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.38500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4870001952238468, guid: 4cc4ed5324930cd4ca030d3d2b956ea7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.38500002
+      objectReference: {fileID: 0}
     - target: {fileID: 23469932326176992, guid: 4cc4ed5324930cd4ca030d3d2b956ea7,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -374,6 +386,31 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 416817346}
+    - target: {fileID: 114420163691325594, guid: 4cc4ed5324930cd4ca030d3d2b956ea7,
+        type: 3}
+      propertyPath: m_Width
+      value: 385
+      objectReference: {fileID: 0}
+    - target: {fileID: 114420163691325594, guid: 4cc4ed5324930cd4ca030d3d2b956ea7,
+        type: 3}
+      propertyPath: m_Height
+      value: 385
+      objectReference: {fileID: 0}
+    - target: {fileID: 114420163691325594, guid: 4cc4ed5324930cd4ca030d3d2b956ea7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114420163691325594, guid: 4cc4ed5324930cd4ca030d3d2b956ea7,
+        type: 3}
+      propertyPath: m_TrackableName
+      value: NG_Marker
+      objectReference: {fileID: 0}
+    - target: {fileID: 114420163691325594, guid: 4cc4ed5324930cd4ca030d3d2b956ea7,
+        type: 3}
+      propertyPath: m_DatabaseIndex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cc4ed5324930cd4ca030d3d2b956ea7, type: 3}
 --- !u!1 &585866493
