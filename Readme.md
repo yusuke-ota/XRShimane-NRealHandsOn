@@ -13,7 +13,7 @@ theme: gaia
 
 * OS: Windows 10(MacやLinuxでもよいはず)
 * Unity: 2019.3.7f1
-* NrealSDK: 1.2.1 [ダウンロードページ(要ユーザー登録)]( /* todo:URL記載 */ )
+* NrealSDK: 1.2.1 [ダウンロードページ(要ユーザー登録)](https://developer.nreal.ai/download)
 
 ---
 
@@ -329,7 +329,9 @@ TODO:動画再生
 
 ---
 
-![h:350](./DocumentImages/NG_Marker.png)
+### 最低得点(せっかく作ったから)
+
+![h:300](./DocumentImages/NG_Marker.png)
 |ARCore|Nreal|
 |:--:|:--:|
 |特徴点不足|31~35|
@@ -338,7 +340,9 @@ TODO:動画再生
 
 ---
 
-![h:350](./DocumentImages/White.png)
+### 白紙
+
+![h:300](./DocumentImages/White.png)
 |ARCore|Nreal|
 |:--:|:--:|
 |特徴点不足|40|
@@ -347,7 +351,9 @@ TODO:動画再生
 
 ---
 
-![h:350](./DocumentImages/test_0.png)
+### パターンの濃さ
+
+![h:300](./DocumentImages/test_0.png)
 |ARCore|Nreal|
 |:--:|:--:|
 |0|49|
@@ -355,7 +361,7 @@ TODO:動画再生
 
 ---
 
-![h:350](./DocumentImages/test_20.png)
+![h:300](./DocumentImages/test_20.png)
 |ARCore|Nreal|
 |:--:|:--:|
 |20|57|
@@ -363,11 +369,29 @@ TODO:動画再生
 
 ---
 
-![h:350](./DocumentImages/test_80.png)
+![h:300](./DocumentImages/test_80.png)
 |ARCore|Nreal|
 |:--:|:--:|
 |80|47|
 ARCore的には余分なパターン柄の背景は低評価の模様
+
+---
+
+### 着色
+
+![h:300](./DocumentImages/test_RGB.png)
+|ARCore|Nreal|
+|:--:|:--:|
+|0|48|
+目に悪い原色系。グレースケールにすると輪郭が取りにくくなる
+
+---
+
+![h:300](./DocumentImages/test_RGB_gray.png)
+|ARCore|Nreal|
+|:--:|:--:|
+|0|48|
+カラー版と変化なし
 
 ---
 
