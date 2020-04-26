@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/NGMaker.unity
-    guid: e6940cf6629b56d408f3f9a3dade4588
+  m_Scenes: []
   m_configObjects: {}
