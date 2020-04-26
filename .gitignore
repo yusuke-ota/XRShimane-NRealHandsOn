@@ -64,7 +64,6 @@ default.txt
 ProjectSettings/*
 Assets/TextMesh Pro/*
 Assets/Plugins/*
-.idea
 
 Assets/NRSDK/*
 Assets/AdjustByImage/*
